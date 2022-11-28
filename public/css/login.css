@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif !important; 
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.main{
+    height: 100vh;
+}
+.main .navigation{
+    height: 90px;
+
+}
+.main .navigation .nav_wrapper{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.main .logo{
+    flex: 1;
+    font-size: 22px;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 26px !important;
+}
+.main .navigation .nav_wrapper .nav_lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+}
+.main .navigation .nav_wrapper .nav_lists li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.main .avatar{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+.main .avatar img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main .login_content{
+    height: 100%;
+    max-height: 550px;
+}
+.main .login_form .login_input label{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.main  .login_form .login_input input{
+    border:1px solid #999;
+    outline: none;
+    height: 50px;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.main .login_form .login_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+
+.main .login_form .btn_submit{
+    height: 50px;
+    border-radius: 3px;
+    width: 300px;
+    background: rgb(68, 27, 250);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+/* right */
+.main  .landing_image img{
+    height: auto;
+    width: 100%;
+}

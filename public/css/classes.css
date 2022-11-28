@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.main{
+    height: 100vh;
+}
+.main .navigation{
+    height: 90px;
+
+}
+.main .navigation .nav_wrapper{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.main .nav-bar .logo{
+    flex: 1;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 26px !important;
+}
+.main .navigation .nav_wrapper .nav_lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+}
+.main .navigation .nav_wrapper .nav_lists li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.main .avatar{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+.main .avatar img{
+    height: 100%;
+    width: 100%;
+}
+/* container */
+
+.create_class_container{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.create_class_container .class_image{
+    margin-bottom: 10px;
+}
+.create_class_container .class_image img{
+    height: auto;
+    width: 100%;
+}
+.create_class_container .button_create_wrap{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.create_class_container .button_create_wrap button{
+    background: rgb(68, 27, 250);
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+.create_class_container .button_create_wrap a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(68, 27, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.create_class_container .button_create_wrap button:nth-child(2){
+    background: #fff;
+    border: 2px solid rgb(20, 157, 221);
+    color: rgb(20, 157, 221);
+}
+
+
+/* create page */
+.container_create h2{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 20px 30px;
+}
+.container_create form{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container_create form input.inp{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(182, 182, 182);
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.container_create form .button_create_wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.container_create form .button_create_wrap input,
+.container_create form .button_create_wrap a{
+    width: 140px;
+    height: 50px;
+
+}
+.container_create form .button_create_wrap input{
+    background: rgb(68, 27, 250);
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+.container_create form .button_create_wrap a{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    background: rgb(255, 77, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* list button */
+.btn{
+    width: 120px;
+}
+.btn:hover{
+    color: #fff !important;
+}
+.btn.add{
+    background: rgb(68, 27, 250);
+    color: #fff;
+}
+.btn.remove{
+    background: rgb(255, 77, 23);
+    color: #fff;
+}
+.list-group-item{
+    cursor: pointer;
+}
